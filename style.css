@@ -105,9 +105,9 @@ button:hover {
 }
 
 #content-container p {
-    font-size: 1.5rem; /* Yazı boyutu daha da büyütüldü */
+    font-size: 1.9rem; /* Yazı boyutu daha da büyütüldü */
     color: #444;
     line-height: 1.6;
-    max-width: 700px;
+    max-width: 1300px;
     margin: 0 auto 30px auto;
 }
