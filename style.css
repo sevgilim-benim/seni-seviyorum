@@ -1,0 +1,28 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fce4ec; /* Açık pembe arka plan */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+#password-container {
+    padding: 20px;
+    border: 2px solid #ff80ab;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
