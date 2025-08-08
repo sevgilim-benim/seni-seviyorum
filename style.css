@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
 body {
-    font-family: 'Georgia', serif;
-    background-color: #fce4ec; /* Açık pembe arka plan */
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg, #fce4ec 0%, #e9496f 100%);
     color: #333;
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
 }
 
 .hidden {
@@ -11,18 +17,100 @@ body {
 }
 
 #password-container {
-    padding: 20px;
-    border: 2px solid #ff80ab;
-    border-radius: 10px;
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
 }
 
-img {
+#password-container h1 {
+    font-size: 3rem;
+    color: #e9496f;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#password-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.kalp-simgesi {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: nabiz 1.5s infinite;
+}
+
+@keyframes nabiz {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#password-input {
+    width: 80%;
+    padding: 15px;
+    border: 2px solid #ff80ab;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#password-input:focus {
+    border-color: #e9496f;
+}
+
+button {
+    background-color: #e9496f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff80ab;
+    transform: translateY(-2px);
+}
+
+#error-message {
+    color: #e9496f;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* İçerik Sayfası Stilleri (Şifre girildikten sonra) */
+#content-container {
+    padding: 20px;
+}
+#content-container h1 {
+    font-size: 3rem;
+    color: #e9496f;
+    margin-bottom: 40px;
+}
+#content-container img {
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+#content-container p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
 }
