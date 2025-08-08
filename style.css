@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif; /* Okunabilir font olarak güncellendi */
+    font-family: 'Open Sans', sans-serif; /* Tüm yazı tipi bu font olarak ayarlandı */
     background: linear-gradient(135deg, #fce4ec 0%, #e9496f 100%);
     color: #333;
     display: flex;
@@ -27,15 +27,14 @@ body {
 }
 
 #password-container h1 {
-    font-family: 'Dancing Script', cursive; /* Başlıklar için romantik font korundu */
-    font-size: 3rem;
+    font-size: 2.8rem; /* Boyut büyütüldü */
     color: #e9496f;
     margin-bottom: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 #password-container p {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Boyut büyütüldü */
     color: #666;
     margin-bottom: 25px;
 }
@@ -46,7 +45,7 @@ body {
     border: 2px solid #ff80ab;
     border-radius: 50px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Boyut büyütüldü */
     margin-bottom: 20px;
     outline: none;
     transition: border-color 0.3s;
@@ -61,7 +60,7 @@ button {
     color: white;
     border: none;
     padding: 15px 30px;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Boyut büyütüldü */
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
@@ -77,6 +76,7 @@ button:hover {
     color: #e9496f;
     margin-top: 15px;
     font-weight: bold;
+    font-size: 1.1rem; /* Boyut büyütüldü */
 }
 
 /* İçerik Sayfası Stilleri */
@@ -87,12 +87,11 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    text-align: center; /* Tüm içerik ortalandı */
+    text-align: center;
 }
 
 #content-container h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3.5rem;
+    font-size: 3rem; /* Boyut büyütüldü */
     color: #e9496f;
     margin-bottom: 40px;
 }
@@ -106,8 +105,7 @@ button:hover {
 }
 
 #content-container p {
-    font-family: 'Open Sans', sans-serif; /* Yazılar için okunabilir font belirlendi */
-    font-size: 1.3rem; /* Yazı boyutu büyütüldü */
+    font-size: 1.3rem; /* Boyut büyütüldü */
     color: #444;
     line-height: 1.6;
     max-width: 600px;
