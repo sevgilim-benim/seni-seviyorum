@@ -39,19 +39,6 @@ body {
     margin-bottom: 25px;
 }
 
-.kalp-simgesi {
-    width: 80px;
-    height: auto;
-    margin-bottom: 20px;
-    animation: nabiz 1.5s infinite;
-}
-
-@keyframes nabiz {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-}
-
 #password-input {
     width: 80%;
     padding: 15px;
